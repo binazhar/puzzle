@@ -107,6 +107,7 @@ public class Game {
         String route = findPath(map, startPoint, endPoint);
 
         //System.out.println("mAP BEING RESET HERE ");
+		//Reset Map to avoid any carried over computation
         map = initMap(map, block.getPosition());
 
         //printMap(map);
@@ -324,7 +325,7 @@ public class Game {
 
                         map[i][j] = 1;
                         //printMap(map);
-                        break;
+                        break;						// Need to break here, otherwise wrong initilization
 
                     } else {
                         //System.out.println("********* uN-bLOCKED  *******");
