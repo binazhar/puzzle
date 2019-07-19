@@ -13,5 +13,5 @@ Assuming that your java compiler resides in Program Files\Java folder, the first
 
 E:\Puzzle\target>"C:\Program Files\Java\jdk1.8.0_212\bin\java" com.gvnn.trb.Main
 
-Note
+#Note
 Please use Java 8 for compiling the code as Java 7 will throw some weird errors and will also not be able to handle lambda code.  I used 1.8.0 for compilation.
